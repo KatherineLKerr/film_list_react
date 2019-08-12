@@ -10,7 +10,6 @@ class MovieList extends Component {
 
     return(
       <div className="movie-list">
-        <h3>movies: (this is movies list)</h3>
         <ul>
           {movieNodes}
         </ul>
