@@ -6,10 +6,11 @@ class Movie extends Component {
 
     return(
       <div className="movie">
-        <h4>i am a movie.. jurassic park maybe?</h4>
+        <h4>{this.props.children}</h4>
+        <p>{this.props.url}</p>
       </div>
     )
-    
+
   }
 }
 
