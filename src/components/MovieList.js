@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Movie from './Movie';
 
 class MovieList extends Component {
 
@@ -8,6 +9,8 @@ class MovieList extends Component {
     return(
       <div className="movie-list">
         <h3>movies: (this is movies list)</h3>
+        <Movie/>
+        <Movie/>
       </div>
     )
   }
