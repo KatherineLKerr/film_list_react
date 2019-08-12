@@ -11,7 +11,9 @@ class MovieList extends Component {
     return(
       <div className="movie-list">
         <h3>movies: (this is movies list)</h3>
-        {movieNodes}
+        <ul>
+          {movieNodes}
+        </ul>
       </div>
     )
   }
