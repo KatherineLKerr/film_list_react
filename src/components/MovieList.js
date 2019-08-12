@@ -1,0 +1,16 @@
+import React, {Component} from 'react';
+
+class MovieList extends Component {
+
+  render() {
+
+
+    return(
+      <div className="movie-list">
+        <h3>movies: (this is movies list)</h3>
+      </div>
+    )
+  }
+}
+
+export default MovieList;

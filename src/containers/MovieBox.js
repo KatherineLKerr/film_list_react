@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-
+import MovieList from '../components/MovieList'
 class MovieBox extends Component {
 
   constructor(props) {
-
     super(props);
-
     this.state = {
       data: [
         {
@@ -41,6 +39,7 @@ class MovieBox extends Component {
     return(
       <div className="movie-box">
         <h2>moviebox!</h2>
+        <MovieList/>
       </div>
     )
   }
