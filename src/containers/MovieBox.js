@@ -41,6 +41,7 @@ class MovieBox extends Component {
       <div className="movie-box">
         <h2>moviebox!</h2>
         <MovieList data={this.state.data}/>
+        <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming films!</a>
       </div>
     )
   }
