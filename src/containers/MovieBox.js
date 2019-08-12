@@ -12,4 +12,4 @@ class MovieBox extends Component {
 
 }
 
-export default CommentBox;
+export default MovieBox;

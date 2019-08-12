@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import MovieBox from './containers/MovieBox'
 
 function App() {
   return (
-    <h1>hello and welcome to the movie list </h1>
+    <MovieBox/>
   );
 }
 
